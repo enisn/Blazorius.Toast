@@ -1,5 +1,4 @@
 ﻿window.ShowToastrFromCs = (toastType, positionClass, message) => {
-    debugger;
     toastr.options = {
         "debug": false,
         "positionClass": positionClass,
