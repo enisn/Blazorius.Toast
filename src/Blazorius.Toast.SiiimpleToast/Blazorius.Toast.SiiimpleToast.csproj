@@ -1,7 +1,30 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>enisn</Authors>
+    <Product>Blazorius.Toast.SiiimpleToast</Product>
+    <Description>Siiimple Toast implementation for Blaziorius.Toast</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.1</Version>
+    <RepositoryUrl>https://github.com/enisn/Blazorius.Toast</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <!-- .js/.css files will be referenced via <script>/<link> tags; other content files will just be included in the app's 'dist' directory without any tags referencing them -->
+    <EmbeddedResource Include="content\**\*.js" LogicalName="blazor:js:%(RecursiveDir)%(Filename)%(Extension)" />
+    <EmbeddedResource Include="content\**\*.css" LogicalName="blazor:css:%(RecursiveDir)%(Filename)%(Extension)" />
+    <EmbeddedResource Include="content\**" Exclude="**\*.js;**\*.css" LogicalName="blazor:file:%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="content\**\*.js" />
+    <None Remove="content\**\*.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Blazorius.Toast\Blazorius.Toast.csproj" />
+  </ItemGroup>
 
 </Project>

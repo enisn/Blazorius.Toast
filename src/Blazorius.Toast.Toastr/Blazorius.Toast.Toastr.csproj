@@ -7,7 +7,7 @@
     <Description>A Toastr implementation on Blazorius.Toast abstractions.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReleaseNotes>Released</PackageReleaseNotes>
-    <RepositoryUrl>https://github.com/enisn/Blazorius.Toast/tree/master</RepositoryUrl>
+    <RepositoryUrl>https://github.com/enisn/Blazorius.Toast</RepositoryUrl>
     <PackageTags>Blazor,toast,toastr,wasm</PackageTags>
     <PackageId>Blazorius.Toast.Toastr</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
