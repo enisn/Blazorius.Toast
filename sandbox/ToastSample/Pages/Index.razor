@@ -1,0 +1,21 @@
+﻿@page "/"
+
+@using Blazor.Toast.Abstractions
+
+@inject IToastManager Toast;
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+<button @onclick="ShowToast">Click me!</button>
+
+@code {
+
+    async Task ShowToast()
+    {
+        await Toast.ShowAsync("Hello World!");
+    }
+}
