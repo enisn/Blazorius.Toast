@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>enisn</Authors>
-    <Company>enisnenisn</Company>
+    <Company>enisn</Company>
     <Description>A toast abstractions to be base for different implementations.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/enisn/Blazorius.Toast</RepositoryUrl>
