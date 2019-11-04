@@ -11,7 +11,7 @@ See [live demo](https://enisn.github.io/Blazor.Toast-demo/)
 | [Blazorius.Toast](https://www.nuget.org/packages/Blazorius.Toast/) | Abstractions | ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Blazorius.Toast?logo=nuget) |
 | [Blazorius.Toast.Toastr](https://www.nuget.org/packages/Blazorius.Toast.Toastr/) | [CodeSeven/toastr](/CodeSeven/toastr) | ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Blazorius.Toast.Toastr?logo=nuget) |
 | Blazorius.Toast.NativeToast | [egoist/native-toast](/egoist/native-toast) | ![](https://img.shields.io/nuget/vpre/Blazorius.Toast.NativeToast?logo=nuget) |
-| Blazorius.Toast.SiiimpleToast | [gomonk3037/siiimple-toast](/gomonk3037/siiimple-toast) | ![](https://img.shields.io/nuget/vpre/Blazorius.Toast.SiiimpleToast?logo=nuget) |
+| [Blazorius.Toast.SiiimpleToast](https://www.nuget.org/packages/Blazorius.Toast.SiiimpleToast/) | [gomonk3037/siiimple-toast](/gomonk3037/siiimple-toast) | ![](https://img.shields.io/nuget/vpre/Blazorius.Toast.SiiimpleToast?logo=nuget) |
 
 
 
