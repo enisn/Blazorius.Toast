@@ -9,8 +9,11 @@ namespace ToastSample
     {
         public void ConfigureServices(IServiceCollection services)
         {
-
-            services.AddToastr(builder => builder.Position = ToastPosition.BottomCenter);
+            services.AddToastr(builder =>
+            {
+                builder.Position = ToastPosition.BottomCenter;
+                builder.Type = ToastType.Success;
+            });
         }
 
         public void Configure(IComponentsApplicationBuilder app)
