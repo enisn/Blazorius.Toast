@@ -2,7 +2,7 @@
 A Generic Toast Implementation for Blazor. You can choose a toast implementation as your wish.
 
 # Demo
-See [live demo](https://enisn.github.io/Blazor.Toast-demo/toastr)
+See [live demo](https://enisn.github.io/Blazor.Toast-demo/)
 
 # Support
 
