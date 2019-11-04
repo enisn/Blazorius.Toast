@@ -1,0 +1,53 @@
+﻿@page  "/toastr"
+
+@using Blazor.Toast.Abstractions
+@using Blazor.Toast.Primitives
+
+
+@inject IToastManager Toast;
+
+<div class="container">
+
+    <form>
+
+        <div class="form-group">
+
+            <select @bind-value="@position" @bind-value:event="onchange" class="form-control">
+                @foreach (var item in Enum.GetValues(typeof(ToastPosition)))
+                {
+                    <option value="@item"> @item.ToString() </option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <select @bind-value="@type" @bind-value:event="onchange" class="form-control">
+                @foreach (var item in Enum.GetValues(typeof(ToastType)))
+                {
+                    <option value="@item"> @item.ToString() </option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <input type="text" placeholder="message" @bind-value="@message" @bind-value:event="oninput" class="form-control" />
+        </div>
+
+        <button type="button" @onclick="ShowAsync" class="btn btn-outline-primary">Show</button>
+    </form>
+</div>
+
+
+@code{
+
+    ToastPosition position;
+
+    ToastType type;
+
+    string message;
+
+    async Task ShowAsync()
+    {
+        await Toast.ShowAsync(type, position, message);
+    }
+}
