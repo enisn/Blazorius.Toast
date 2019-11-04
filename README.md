@@ -8,10 +8,10 @@ See [live demo](https://enisn.github.io/Blazor.Toast-demo/)
 
 | Package | Implementation | NuGet |
 | --- | --- | --- |
-| [Blazorius.Toast](https://www.nuget.org/packages/Plugin.Blazorius.Toast/) | Abstractions | ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Plugin.Blazorius.Toast?logo=nuget) |
-| [Blazorius.Toast.Toastr](https://www.nuget.org/packages/Blazorius.Toast.Toastr/) | [CodeSeven/toastr](/CodeSeven/toastr) | ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Plugin.Blazorius.Toast.Toastr?logo=nuget) |
-| Blazorius.Toast.NativeToast | [egoist/native-toast](/egoist/native-toast) | ![](https://img.shields.io/nuget/vpre/Plugin.Blazorius.Toast.NativeToast?logo=nuget) |
-| Blazorius.Toast.SiiimpleToast | [gomonk3037/siiimple-toast](/gomonk3037/siiimple-toast) | ![](https://img.shields.io/nuget/vpre/Plugin.Blazorius.Toast.SiiimpleToast?logo=nuget) |
+| [Blazorius.Toast](https://www.nuget.org/packages/Blazorius.Toast/) | Abstractions | ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Blazorius.Toast?logo=nuget) |
+| [Blazorius.Toast.Toastr](https://www.nuget.org/packages/Blazorius.Toast.Toastr/) | [CodeSeven/toastr](/CodeSeven/toastr) | ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Blazorius.Toast.Toastr?logo=nuget) |
+| Blazorius.Toast.NativeToast | [egoist/native-toast](/egoist/native-toast) | ![](https://img.shields.io/nuget/vpre/Blazorius.Toast.NativeToast?logo=nuget) |
+| Blazorius.Toast.SiiimpleToast | [gomonk3037/siiimple-toast](/gomonk3037/siiimple-toast) | ![](https://img.shields.io/nuget/vpre/Blazorius.Toast.SiiimpleToast?logo=nuget) |
 
 
 
@@ -19,14 +19,23 @@ See [live demo](https://enisn.github.io/Blazor.Toast-demo/)
 
 - Add Nuget Package to your project.
 
+_Choose one of implementation like below:_
+_
 ```
-Install-Package Plugin.Blazorius.Toast.Toastr -Version 1.0.0
+Install-Package Blazorius.Toast.Toastr -Version 1.0.1
+```
+
+```
+Install-Package Blazorius.Toast.SiiimpleToast -Version 1.0.1
 ```
 
 - Go your **Startup.cs** and add your Toast implementation:
 
+_Add one of implementation of toast like below:_
+_
 ```csharp
- services.AddToastr();
+ services.AddToastr(); // Add Toastr
+ services.AddSiiimpleToast(); // or SiiimpleToast
 ```
 
 - You can customize default values:
