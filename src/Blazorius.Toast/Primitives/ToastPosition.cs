@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Blazor.Toast.Primitives
+namespace Blazorius.Toast.Primitives
 {
     public enum ToastPosition
     {

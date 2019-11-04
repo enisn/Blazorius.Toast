@@ -1,6 +1,6 @@
-﻿using Blazor.Toast.Primitives;
+﻿using Blazorius.Toast.Primitives;
 
-namespace Blazor.Toast
+namespace Blazorius.Toast
 {
     public class Configuration
     {

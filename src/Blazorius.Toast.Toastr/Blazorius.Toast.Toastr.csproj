@@ -1,7 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>enisn</Authors>
+    <Company>nisnenisn</Company>
+    <Description>A Toastr implementation on Blazorius.Toast abstractions.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>Released</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/enisn/Blazorius.Toast/tree/master</RepositoryUrl>
+    <PackageTags>Blazor,toast,toastr,wasm</PackageTags>
+    <PackageId>Blazorius.Toast.Toastr</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,9 +26,12 @@
     <None Remove="content\**\*.css" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="content\toastr.js.map" />
+  </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Blazor.Toast\Blazor.Toast.csproj" />
+    <ProjectReference Include="..\Blazorius.Toast\Blazorius.Toast.csproj" />
   </ItemGroup>
-  
+
 </Project>

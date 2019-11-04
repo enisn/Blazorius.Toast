@@ -1,12 +1,12 @@
-﻿using Blazor.Toast.Abstractions;
-using Blazor.Toast.Primitives;
+﻿using Blazorius.Toast.Abstractions;
+using Blazorius.Toast.Primitives;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Blazor.Toast.NativeToast.Services
+namespace Blazorius.Toast.NativeToast.Services
 {
     public class NativeToastManager : IToastManager
     {

@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Blazor.Toast.Toastr\Blazor.Toast.Toastr.csproj" />
+    <ProjectReference Include="..\..\src\Blazorius.Toast.Toastr\Blazorius.Toast.Toastr.csproj" />
   </ItemGroup>
 
 </Project>

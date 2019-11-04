@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Blazor.Toast.Primitives
+namespace Blazorius.Toast.Primitives
 {
     public enum ToastType
     {

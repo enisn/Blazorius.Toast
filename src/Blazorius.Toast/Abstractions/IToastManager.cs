@@ -1,10 +1,10 @@
-﻿using Blazor.Toast.Primitives;
+﻿using Blazorius.Toast.Primitives;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Blazor.Toast.Abstractions
+namespace Blazorius.Toast.Abstractions
 {
     public interface IToastManager
     {

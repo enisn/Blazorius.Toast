@@ -1,5 +1,5 @@
-using Blazor.Toast.Primitives;
-using Blazor.Toast.Toastr;
+using Blazorius.Toast.Primitives;
+using Blazorius.Toast.Toastr;
 using Microsoft.AspNetCore.Components.Builder;
 using Microsoft.Extensions.DependencyInjection;
 

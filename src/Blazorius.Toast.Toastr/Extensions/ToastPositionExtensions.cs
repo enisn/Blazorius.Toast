@@ -1,11 +1,11 @@
-﻿using Blazor.Toast.Primitives;
+﻿using Blazorius.Toast.Primitives;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Blazor.Toast.Toastr.Extensions
+namespace Blazorius.Toast.Toastr.Extensions
 {
     public static class ToastPositionExtensions
     {

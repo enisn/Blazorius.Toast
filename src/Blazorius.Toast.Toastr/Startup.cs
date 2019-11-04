@@ -1,9 +1,9 @@
-﻿using Blazor.Toast.Abstractions;
-using Blazor.Toast.Toastr.Services;
+﻿using Blazorius.Toast.Abstractions;
+using Blazorius.Toast.Toastr.Services;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Blazor.Toast.Toastr
+namespace Blazorius.Toast.Toastr
 {
     public static class Startup
     {

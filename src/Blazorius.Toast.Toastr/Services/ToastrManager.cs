@@ -1,10 +1,10 @@
-﻿using Blazor.Toast.Abstractions;
-using Blazor.Toast.Primitives;
-using Blazor.Toast.Toastr.Extensions;
+﻿using Blazorius.Toast.Abstractions;
+using Blazorius.Toast.Primitives;
+using Blazorius.Toast.Toastr.Extensions;
 using Microsoft.JSInterop;
 using System.Threading.Tasks;
 
-namespace Blazor.Toast.Toastr.Services
+namespace Blazorius.Toast.Toastr.Services
 {
     public class ToastrManager : IToastManager
     {

@@ -1,4 +1,4 @@
-# Blazor.Toast
+# Blazorius.Toast
 A Generic Toast Implementation for Blazor. You can choose a toast implementation as your wish.
 
 
@@ -6,10 +6,10 @@ A Generic Toast Implementation for Blazor. You can choose a toast implementation
 
 | Package | Implementation | NuGet |
 | --- | --- | --- |
-| [Blazor.Toast](https://www.nuget.org/packages/Plugin.Blazor.Toast/) | Abstractions | ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Plugin.Blazor.Toast?logo=nuget) |
-| [Blazor.Toast.Toastr](https://www.nuget.org/packages/Plugin.Blazor.Toast.Toastr/) | [CodeSeven/toastr](/CodeSeven/toastr) | ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Plugin.Blazor.Toast.Toastr?logo=nuget) |
-| Blazor.Toast.NativeToast | [egoist/native-toast](/egoist/native-toast) | ![](https://img.shields.io/nuget/vpre/Plugin.Blazor.Toast.NativeToast?logo=nuget) |
-| Blazor.Toast.SiiimpleToast | [gomonk3037/siiimple-toast](/gomonk3037/siiimple-toast) | ![](https://img.shields.io/nuget/vpre/Plugin.Blazor.Toast.SiiimpleToast?logo=nuget) |
+| [Blazorius.Toast](https://www.nuget.org/packages/Plugin.Blazorius.Toast/) | Abstractions | ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Plugin.Blazorius.Toast?logo=nuget) |
+| [Blazorius.Toast.Toastr](https://www.nuget.org/packages/Blazorius.Toast.Toastr/) | [CodeSeven/toastr](/CodeSeven/toastr) | ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Plugin.Blazorius.Toast.Toastr?logo=nuget) |
+| Blazorius.Toast.NativeToast | [egoist/native-toast](/egoist/native-toast) | ![](https://img.shields.io/nuget/vpre/Plugin.Blazorius.Toast.NativeToast?logo=nuget) |
+| Blazorius.Toast.SiiimpleToast | [gomonk3037/siiimple-toast](/gomonk3037/siiimple-toast) | ![](https://img.shields.io/nuget/vpre/Plugin.Blazorius.Toast.SiiimpleToast?logo=nuget) |
 
 
 
@@ -18,7 +18,7 @@ A Generic Toast Implementation for Blazor. You can choose a toast implementation
 - Add Nuget Package to your project.
 
 ```
-Install-Package Plugin.Blazor.Toast.Toastr -Version 1.0.0
+Install-Package Plugin.Blazorius.Toast.Toastr -Version 1.0.0
 ```
 
 - Go your **Startup.cs** and add your Toast implementation:
@@ -55,7 +55,7 @@ public void ConfigureServices(IServiceCollection services)
 
 @page "/"
 
-@using Blazor.Toast.Abstractions
+@using Blazorius.Toast.Abstractions
 
 @inject IToastManager Toast;
 

@@ -7,9 +7,10 @@
     <Company>enisnenisn</Company>
     <Description>A toast abstractions to be base for different implementations.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/enisn/Blazor.Toast/tree/master</RepositoryUrl>
+    <RepositoryUrl>https://github.com/enisn/Blazorius.Toast/tree/master</RepositoryUrl>
     <PackageTags>Blazor,toast,toastr,nativetoast</PackageTags>
-    <PackageId>Plugin.Blazor.Toast</PackageId>
+    <PackageId>Blazorius.Toast</PackageId>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
