@@ -6,10 +6,10 @@ A Generic Toast Implementation for Blazor. You can choose a toast implementation
 
 | Package | Implementation | NuGet |
 | --- | --- | --- |
-| Blazor.Toast | Abstractions | ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Plugin.Blazor.Toast?logo=nuget) |
-| Blazor.Toast.Toastr | [CodeSeven/toastr](/CodeSeven/toastr) | ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Plugin.Blazor.Toast.Toastr?logo=nuget) |
-| Blazor.Toast.NativeToast | [egoist/native-toast](/egoist/native-toast) | ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Plugin.Blazor.Toast.NativeToast?logo=nuget) |
-| Blazor.Toast.SiiimpleToast | [gomonk3037/siiimple-toast](/gomonk3037/siiimple-toast) | ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Plugin.Blazor.Toast.SiiimpleToast?logo=nuget) |
+| [Blazor.Toast](https://www.nuget.org/packages/Plugin.Blazor.Toast/) | Abstractions | ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Plugin.Blazor.Toast?logo=nuget) |
+| [Blazor.Toast.Toastr](https://www.nuget.org/packages/Plugin.Blazor.Toast.Toastr/) | [CodeSeven/toastr](/CodeSeven/toastr) | ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Plugin.Blazor.Toast.Toastr?logo=nuget) |
+| Blazor.Toast.NativeToast | [egoist/native-toast](/egoist/native-toast) | ![](https://img.shields.io/nuget/vpre/Plugin.Blazor.Toast.NativeToast?logo=nuget) |
+| Blazor.Toast.SiiimpleToast | [gomonk3037/siiimple-toast](/gomonk3037/siiimple-toast) | ![](https://img.shields.io/nuget/vpre/Plugin.Blazor.Toast.SiiimpleToast?logo=nuget) |
 
 
 
