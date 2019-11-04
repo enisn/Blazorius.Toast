@@ -14,7 +14,7 @@ namespace Blazor.Toast.Primitives
 
         TopFullWidth,
 
-        TopBottomFullWidth,
+        BottomFullWidth,
 
         TopCenter,
 

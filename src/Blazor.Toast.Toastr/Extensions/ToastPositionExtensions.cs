@@ -23,7 +23,7 @@ namespace Blazor.Toast.Toastr.Extensions
                     return "toast-top-left";
                 case ToastPosition.TopFullWidth:
                     return "toast-top-full-width";
-                case ToastPosition.TopBottomFullWidth:
+                case ToastPosition.BottomFullWidth:
                     return "toast-bottom-full-width";
                 case ToastPosition.TopCenter:
                     return "toast-top-center";
