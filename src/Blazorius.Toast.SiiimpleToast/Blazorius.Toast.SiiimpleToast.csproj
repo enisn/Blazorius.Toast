@@ -7,8 +7,10 @@
     <Product>Blazorius.Toast.SiiimpleToast</Product>
     <Description>Siiimple Toast implementation for Blaziorius.Toast</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.0.2</Version>
+    <Version>1.0.2.1</Version>
+    <PackageIconUrl></PackageIconUrl>
     <RepositoryUrl>https://github.com/enisn/Blazorius.Toast</RepositoryUrl>
+    <PackageIcon>Blazorius_512.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,6 +23,10 @@
   <ItemGroup>
     <None Remove="content\**\*.js" />
     <None Remove="content\**\*.css" />
+    <None Include="..\..\content\Blazorius_512.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

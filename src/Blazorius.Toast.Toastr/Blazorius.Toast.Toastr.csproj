@@ -7,11 +7,13 @@
     <Description>A Toastr implementation on Blazorius.Toast abstractions.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReleaseNotes>Released</PackageReleaseNotes>
+    <PackageIconUrl></PackageIconUrl>
     <RepositoryUrl>https://github.com/enisn/Blazorius.Toast</RepositoryUrl>
     <PackageTags>Blazor,toast,toastr,wasm</PackageTags>
     <PackageId>Blazorius.Toast.Toastr</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.0.1.1</Version>
+    <PackageIcon>Blazorius_512.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -24,6 +26,10 @@
   <ItemGroup>
     <None Remove="content\**\*.js" />
     <None Remove="content\**\*.css" />
+    <None Include="..\..\content\Blazorius_512.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
