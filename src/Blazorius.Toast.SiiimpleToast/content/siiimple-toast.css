@@ -14,15 +14,19 @@
     transform: scale(0.5);
     transition: all 0.4s ease-out;
 }
-
-    .siiimpleToast[data-state="default"] {
-        background-color: #323232;
-    }
-
-    .siiimpleToast[data-state="success"] {
-        background-color: #8BC34A;
-    }
-
-    .siiimpleToast[data-state="alert"] {
-        background-color: #d93737;
-    }
+.siiimpleToast[data-state="default"] {
+    background-color: #323232;
+}
+.siiimpleToast[data-state="info"] {
+    background-color: #17a2b8;
+}
+.siiimpleToast[data-state="warning"] {
+    background-color: #ffc107;
+    color: #212529;
+}
+.siiimpleToast[data-state="success"] {
+    background-color: #8BC34A;
+}
+.siiimpleToast[data-state="alert"] {
+    background-color: #d93737;
+}

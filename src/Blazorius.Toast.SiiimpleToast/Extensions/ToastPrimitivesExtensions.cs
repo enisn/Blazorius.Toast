@@ -32,11 +32,13 @@ namespace Blazorius.Toast.SiiimpleToast.Extensions
             switch (type)
             {
                 case ToastType.None:
-                case ToastType.Info:
                     return "message";
+                case ToastType.Info:
+                    return "info";
                 case ToastType.Success:
                     return "success";
                 case ToastType.Warning:
+                    return "warning";
                 case ToastType.Error:
                     return "alert";
             }
