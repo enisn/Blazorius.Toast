@@ -1,3 +1,7 @@
+<div style="text-align:center">
+ <img width="20%" src="https://github.com/enisn/Blazorius.Toast/blob/master/content/Blazorius_512.png?raw=true" />
+ </div>
+ 
 # Blazorius.Toast
 A Generic Toast Implementation for Blazor. You can choose a toast implementation as your wish.
 
