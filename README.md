@@ -3,7 +3,7 @@
  </div>
  
 # Blazorius.Toast
-A Generic Toast Implementation for Blazor. You can choose a toast implementation as your wish. So this library listens changes over `INotifyPropertyChanged` and `INotifyCollectionChanged`. So you just update your data ObservableCollection, and chart will be updated automaticly!
+A Generic Toast Implementation for Blazor. You can choose a toast implementation as your wish.
 
 # Demo
 See [live demo](https://enisn.github.io/Blazor.Toast-demo/)
